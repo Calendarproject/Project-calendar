@@ -1,0 +1,25 @@
+body {
+	font-family: "Verdana", "Tahoma", "Arial";
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+#banner {
+	text-align: center;
+}
+img {
+  width: 7%;
+  height: 5%;
+}
+
+h2,h3,h4,h5 {
+	text-align: left;
+	font-size: 18px;	
+	color: #303030;
+}
+p {
+	color: #494949;
+}
