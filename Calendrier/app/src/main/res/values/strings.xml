@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Calendrier</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="email">Adrsse email</string>
+    <string name="password">Mot de passe</string>
+    <string name="connect">Se connecter</string>
+    <string-array name="semaine">
+        <item>Semaine 1</item>
+        <item>Semaine 2</item>
+    </string-array>
+    <string name="title_activity_planning">Planning</string>
+    <string name="title_activity_matiere">MatiereActivity</string>
+    <string name="title_activity_projet">ProjetActivity</string>
+</resources>

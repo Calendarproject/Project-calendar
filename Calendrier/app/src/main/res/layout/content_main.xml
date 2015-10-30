@@ -1,0 +1,48 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="150dp"
+        android:id="@+id/novy_logo"
+        android:src="@mipmap/novy" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:text="@string/email"
+         android:textSize="@dimen/normal_texte_size"
+         android:textColor="@color/black_color"/>
+     <EditText
+         android:layout_width="@dimen/large_padding"
+         android:layout_height="wrap_content"
+         android:inputType="textEmailAddress"
+         android:layout_gravity="center"/>
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:paddingTop="@dimen/normal_padding"
+         android:text="@string/password"
+         android:textSize="@dimen/normal_texte_size"
+         android:textColor="@color/black_color"/>
+
+     <EditText
+         android:layout_width="@dimen/large_padding"
+         android:layout_height="wrap_content"
+         android:inputType="textPassword"
+         android:layout_gravity="center"/>
+     <Button
+         android:id="@+id/boutonlogin"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_marginTop="@dimen/normal_padding"
+         android:text="@string/connect"/>
+
+ </LinearLayout>

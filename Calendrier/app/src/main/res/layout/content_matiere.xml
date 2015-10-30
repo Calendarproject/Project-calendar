@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/matiere_en_cour"
+        android:textSize="20sp"
+        android:text="Matières en cours :"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/table_matier_cour"
+        android:stretchColumns="1"
+        android:layout_below="@+id/matiere_en_cour"
+        >
+
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/matiere_fini"
+        android:textSize="20sp"
+        android:text="Matières terminée :"
+        android:layout_below="@+id/table_matier_cour"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/table_matier_fini"
+        android:layout_below="@+id/matiere_fini"
+        android:stretchColumns="1">
+
+
+    </TableLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/matiere_faire"
+        android:textSize="20sp"
+        android:text="Matières à faire :"
+        android:layout_below="@+id/table_matier_fini"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/table_matier_faire"
+        android:layout_below="@+id/matiere_faire"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content">
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
